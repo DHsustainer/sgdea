@@ -1,0 +1,41 @@
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:producto" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:producto">
+<types>
+<xsd:schema targetNamespace="urn:producto">
+<xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+<xsd:import namespace="http://schemas.xmlsoap.org/wsdl/"/>
+</xsd:schema>
+</types>
+<message name="UpdateNotificacionRequest">
+<part name="id" type="xsd:string"/>
+<part name="guia" type="xsd:string"/>
+<part name="estado" type="xsd:string"/>
+<part name="observacion" type="xsd:string"/>
+</message>
+<message name="UpdateNotificacionResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<portType name="productoPortType">
+<operation name="UpdateNotificacion">
+<documentation>Nos da una lista de productos de cada categorÃ­a</documentation>
+<input message="tns:UpdateNotificacionRequest"/>
+<output message="tns:UpdateNotificacionResponse"/>
+</operation>
+</portType>
+<binding name="productoBinding" type="tns:productoPortType">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="UpdateNotificacion">
+<soap:operation soapAction="urn:producto#UpdateNotificacion" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:producto" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:producto" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+</binding>
+<service name="producto">
+<port name="productoPort" binding="tns:productoBinding">
+<soap:address location="http://expedientesdigitales.com/ws/UpdateNotification.php"/>
+</port>
+</service>
+</definitions>

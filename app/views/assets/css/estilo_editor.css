@@ -1,0 +1,211 @@
+  	    #bloq_editor{
+			width:950px;
+			margin:0 auto;
+			text-align:left;
+		}
+
+	 #bloq_editor #buttons{
+		background-color:#FFF;
+		border-top:1px solid #DDD;
+		border-left:1px solid #DDD;
+		border-right:1px solid #DDD;
+		border-bottom:1px solid #ccc;
+		width:auto;
+		padding:0px;
+
+	}
+	 #bloq_editor #buttons .botone{
+		margin:0px;
+		background:none;
+		color: #666;
+		font-weight:bold;
+		font-size:11px;
+		height:32px;
+		width:30px;
+		cursor:pointer;
+		border:none;		
+		padding:0px 5px 0px 5px;
+		text-align:center !important;
+
+	}
+	 #bloq_editor #buttons .botone:hover{
+		border:none;
+		background-color: #DEDEDE;
+	}
+		#bloq_editor #buttons button{
+			outline:none;
+		}
+
+		#bloq_editor .botone ul{
+			position:absolute;	
+			display:none;
+			list-style:none;
+			background:#FFF;
+			min-width:130px;
+			max-width:200px;
+			text-align:left;
+			color:#000;
+			padding:0px;
+			border:1px solid #CCC;
+			
+			margin-top:8px;
+			margin-left:-22px;
+		}
+		#bloq_editor .botone:hover ul{
+			display:inline-block;
+		}
+		#bloq_editor .botone ul li{
+			line-height:24px;
+			padding-left:10px;
+			padding-right:5px;	
+			z-index:999;
+			position:relative;
+		}
+		#bloq_editor .botone ul li:hover{
+			background-color: #DEDEDE;
+		}
+
+		#bloq_editor #buttons .icon{
+			width: 14px;
+			height: 14px;
+			background: url(../img/iconset/stripe.png) no-repeat;
+			display: inline-block;
+			margin-top: 0px;
+		}
+		#bloq_editor #buttons .icon.bold			{background-position: -105px -30px;}
+		#bloq_editor #buttons .icon.italic		{background-position: -105px -0px;}
+		#bloq_editor #buttons .icon.underline		{background-position: -105px -15px;}
+		#bloq_editor #buttons .icon.line			{background-position: -75px -30px;}
+		#bloq_editor #buttons .icon.left			{background-position: -135px -30px;}
+		#bloq_editor #buttons .icon.right			{background-position: -135px -15px;}
+		#bloq_editor #buttons .icon.center		{background-position: -135px -60px;}
+		#bloq_editor #buttons .icon.justify		{background-position: -135px -0px;}
+		#bloq_editor #buttons .icon.outdent		{background-position: -75px -45px;}
+		#bloq_editor #buttons .icon.indent		{background-position: -45px -45px;}
+		#bloq_editor #buttons .icon.numberlist	{background-position: -45px -15px;}
+		#bloq_editor #buttons .icon.dotslist		{background-position: -45px -30px;}
+		#bloq_editor #buttons .icon.gird			{background-position: -45px -60px;}
+		#bloq_editor #buttons .icon.quote			{background-position: -15px -15px;}
+		#bloq_editor #buttons .icon.fontsize		{background-position: -75px -15px;}
+		#bloq_editor #buttons .icon.fonttype		{background-position: -15px -0px;}
+		#bloq_editor #buttons .icon.image			{background-position: -15px -60px;}
+		#bloq_editor #buttons .icon.video			{background-position: -15px -30px;}
+		#bloq_editor #buttons .icon.link			{background-position: -75px -0px;}
+		#bloq_editor #buttons .icon.html			{background-position: -135px -45px;}
+		#bloq_editor #buttons .icon.alignimage	{background-position: -15px -45px;}
+
+	#bloq_editor #buttons  .spacer{
+		width:10px;
+		margin-left:10px;
+	}
+	div.container_editor{
+		padding:10px 100px; 
+		border-bottom:1px solid #DDD;
+		border-left:1px solid #DDD;
+		border-right:1px solid #DDD;
+		background-color: #EEF1F2;
+	}
+
+	div.text_notas{
+		width:auto; 
+		text-align:left;
+		min-height: 1000px;
+		padding: 100px;
+		line-height: 27px;
+		color: #000;
+		background: #FFF;
+		border-bottom:2px solid #DDD;
+		border-top:2px solid #DDD;
+		border-left:2px dashed #DDD;
+		border-right:2px dashed #DDD;
+		outline:none;
+		font-family:Arial;
+		font-size:11px;
+		overflow:none;
+		margin-bottom:10px;
+	}
+
+	div.container_editor2{
+		padding:10px 100px; 
+		border-bottom:1px solid #DDD;
+		border-left:1px solid #DDD;
+		border-right:1px solid #DDD;
+		background-color: #EEF1F2;
+	}
+	div.text_notas2{
+		width:670px; 
+		text-align:left;
+		min-height: 350px;
+		max-height: 350px;
+		line-height: 27px;
+		color: #000;
+		background: #FFF;
+		border-bottom:2px solid #DDD;
+		border-top:2px solid #DDD;
+		border-left:2px dashed #DDD;
+		border-right:2px dashed #DDD;
+		outline:none;
+		font-family:Arial;
+		font-size:11px;
+		overflow:none;
+		margin-bottom:10px;
+	}
+
+
+
+	#editor.htmlview{	background-color: #000;	color:#FFF;
+	}
+	
+	#editor img 		{ 	max-width:100%;					}
+	#editor .resizable  { 	width:auto; float:left;			}
+	#editor .bold 		{	font-weight: bold;				}
+	#editor .italic 	{  	font-style: italic;				}
+	#editor .underline 	{	text-decoration: underline;		}
+	#editor .sline 		{  	text-decoration: line-through;	}
+
+	#editor .fontArial		{ font-family:Arial;			}
+	#editor .fontCourrier	{ font-family:"Courrier new";	}
+	#editor .fontVerdana	{ font-family:Verdana;			}
+	#editor .fontTahoma		{ font-family:"tahoma";}
+	#editor .fontTimes		{ font-family: "Times";}
+
+	#editor .fontSizeDefault{ font-size:14px;}
+	#editor .fontSizeSmall	{ font-size:10px;}
+	#editor .fontSizeBig	{ font-size:18px;}
+	#editor .fontSizeRbig	{ font-size:22px;}
+
+	#editor .FontSize8 { font-size: 8px; line-height:115%}
+	#editor .FontSize9 { font-size: 9px; line-height:115%}
+	#editor .FontSize10 { font-size: 10px; line-height:115%}
+	#editor .FontSize11 { font-size: 11px; line-height:115%}
+	#editor .FontSize12 { font-size: 12px; line-height:115%}
+	#editor .FontSize14 { font-size: 14px; line-height:115%}
+	#editor .FontSize16 { font-size: 16px; line-height:115%}
+	#editor .FontSize18 { font-size: 18px; line-height:115%}
+	#editor .FontSize20 { font-size: 20px; line-height:115%}
+	#editor .FontSize22 { font-size: 22px; line-height:115%}
+	#editor .FontSize24 { font-size: 24px; line-height:115%}
+	#editor .FontSize26 { font-size: 26px; line-height:115%}
+	#editor .FontSize28 { font-size: 28px; line-height:115%}
+	#editor .FontSize30 { font-size: 30px; line-height:115%}
+	#editor .FontSize32 { font-size: 32px; line-height:115%}
+	#editor .FontSize34 { font-size: 34px; line-height:115%}
+	#editor .FontSize36 { font-size: 36px; line-height:115%;}
+
+	#editor .addquote		{ margin-left: 20px; padding:20px; background-color: #f5f5f5; border:1px solid #CCC; margin-top:10px; margin-bottom:10px; }
+
+	#editor .ImageAlignRight{ float:left; margin:8px;}
+	#editor .ImageAlignLeft	{ float:right; margin:8px;}
+
+	#editor .JustifyRight{text-align: right;}
+
+	#editor table{
+		width:100%;
+		border-top:1px solid #ccc;
+		border-left:1px solid #ccc;
+	}
+	#editor table td{
+		border-right:1px solid #CCC;
+		border-bottom:1px solid #CCC;
+	}
+

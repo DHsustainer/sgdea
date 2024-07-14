@@ -1,0 +1,74 @@
+div.menuBar,
+div.menuBar a.menuButton,
+div.menu,
+div.menu a.menuItem {
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.menuBar {
+/*  background-color: #CDCEE9; */
+  padding: 4px 2px 4px 2px;
+  height: 35px;
+}
+/*esto elimina la linea horizontal del boton por el text-decoration*/
+div.menuBar a.menuButton {
+  background-color: transparent;
+  color: #000000;
+  cursor: default;
+  position: relative;
+  text-decoration: none;
+  top: 0px;
+  z-index: 100;
+}
+
+div.menu {
+  background-color: #CDCEE9;
+  padding: 6px 10px;
+  position: absolute;
+  visibility: hidden;
+  background-color: transparent;
+}
+.parentesis{
+  font-family: verdana, Arial, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: bold;
+  color: #616161;
+}
+
+#fileMenu{
+  background: #FFF;
+  border: 1px solid #CFCFCF;
+  margin-top: 15px;
+  z-index: 9999;
+  width: 300px;
+  margin-left: -260px;
+
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px; 
+  border-radius: 6px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.nombres_amigos{
+  cursor: pointer;
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 7px;
+  height: 35px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.nombres_amigos img{
+  border-radius: 10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border:none;
+}
+
+.nombres_amigos:hover{
+  background-color: #F5F5F5;
+}

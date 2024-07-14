@@ -1,0 +1,69 @@
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout lilian_hernandez.crt -out lilian_hernandez.crt
+openssl pkcs12 -export -in lilian_hernandez.crt -out lilian_hernandez.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout dario_rodriguez.crt -out dario_rodriguez.crt
+openssl pkcs12 -export -in dario_rodriguez.crt -out dario_rodriguez.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout magdalena_rondon.crt -out magdalena_rondon.crt
+openssl pkcs12 -export -in magdalena_rondon.crt -out magdalena_rondon.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout mildred_medina.crt -out mildred_medina.crt
+openssl pkcs12 -export -in mildred_medina.crt -out mildred_medina.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout sergio_gomez.crt -out sergio_gomez.crt
+openssl pkcs12 -export -in sergio_gomez.crt -out sergio_gomez.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout patricio_ruiz.crt -out patricio_ruiz.crt
+openssl pkcs12 -export -in patricio_ruiz.crt -out patricio_ruiz.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+
+openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout tcpdf.crt -out tcpdf.crt
+openssl pkcs12 -export -in tcpdf.crt -out tcpdf.p12
+

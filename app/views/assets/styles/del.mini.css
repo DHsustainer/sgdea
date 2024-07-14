@@ -1,0 +1,686 @@
+@charset "utf-8";
+@font-face{
+   font-family: "Segoe UI";
+   src: url(../fonts/segoeui.ttf);
+}
+@font-face{
+   font-family: "Segoe UI B";
+   src: url(../fonts/segoeuib.ttf);
+}
+@font-face{
+   font-family: "Segoe UI I";
+   src: url(../fonts/segoeuii.ttf);
+}
+@font-face{
+   font-family: "Segoe UI L";
+   src: url(../fonts/segoeuil.ttf);
+}
+@font-face{
+   font-family: "Segoe UI SL";
+   src: url(../fonts/segoeuisl.ttf);
+}
+@font-face{
+   font-family: "Segoe UI Z";
+   src: url(../fonts/segoeuiz.ttf);
+}
+@font-face{
+   font-family: "Segoe UI SB";
+   src: url(../fonts/seguisb.ttf);
+}
+@font-face{
+   font-family: "Segoe UI LI";
+   src: url(../fonts/seguili.ttf);
+}
+@font-face{
+   font-family: "Segoe UI BI";
+   src: url(../fonts/seguibi.ttf);
+}
+@font-face{
+   font-family: "Segoe UI SLI";
+   src: url(../fonts/seguisli.ttf);
+}
+body{
+	background-color: #F0F0F0;
+	font-family: "Segoe UI" !important;
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background-color: #fff;
+	border-bottom: 1px solid #e3e2e8;
+	height: 80px;
+	z-index: 2;
+}
+#header #del-logo{
+	
+	background: url(../images/logo_expedientes2.png) no-repeat;
+	background-size: 170px;
+	height: 60px;
+	width: 170px;
+	margin-top: 5px;
+	margin-left: 20px;
+	display: inline-block;
+	cursor: pointer;
+
+}
+
+#header #del-buscar{
+	margin-left: 30px;
+	display:inline-block;
+	width: auto;
+	height: 30px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+#header #del-buscar #del-button-buscar{
+	border: none;
+	padding: 7px;
+	width: 80px;
+	margin: 0px;
+	height: 40px;
+}
+#header #del-buscar input[type="text"], #header #del-buscar select{
+	width: 200px;
+	height: 36px;
+	margin: 0px;
+	padding: 0px;
+	border: 2px solid #e3e2e8;
+	margin-left: -10px;
+    padding-left: 7px;
+    outline: none;
+
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;	
+
+	-moz-border-radius-bottomright:  7px;  
+	-webkit-border-bottom-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+	-moz-border-radius-topright:  7px;  
+	-webkit-border-top-right-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+#header #del-buscar select{
+	height: 40px;
+	width: 120px;
+}
+
+#header #del-right{
+	float: right;
+}
+
+#header #del-alarmas, #header #del-user{
+	display: inline-block;
+	width: auto;
+	height: 65px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: top;
+	border-left: 1px solid #e3e2e8;
+}
+
+#header #del-user #del-user-info{
+	display: inline-block;
+	vertical-align: top;
+
+}
+#header #del-user:hover{
+	background-color: #E4E1E8;
+}
+#wrapper{
+	background-color: #F5F5F5;
+}
+.container{
+	background-color: #FFF;
+}
+#content{
+	padding-bottom: 50px;
+}
+
+.par{
+	background-color: #f0f0f0;
+	border-bottom: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+
+}
+.impar{
+	background-color: #FFF;
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+}
+.par, .impar{
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+}
+
+.th_act{
+	background-color: #1579C4 !important;
+	color: #fff !important;
+	padding: 5px;
+	padding-left: 25px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.th_act2{
+	background-color: #1579C4 !important;
+	color: #fff !important;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+	height: 30px;
+}
+
+.tblresult2{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tblresultx{
+	cursor: pointer;
+}
+
+.tblresult4{
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   padding: 30px; 
+   background-color:#222;
+   top: -17px;
+   position: relative;
+   background: #DDDDDD;
+}
+
+.cuadro_white{
+    width: 29px;
+    height: 17px;
+    background: url(../images/white_spot_upsdon.png) no-repeat;
+    margin: 0 auto;
+    z-index: 999;
+    position: relative;
+}
+
+.th_act_inner{
+	background-color: #484747 !important;
+	font-size: 13px;
+	color: #FFF;
+
+	padding: 5px;
+	padding-left: 25px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.th_act_inner.last{
+	-moz-border-radius-topright:  10px;  
+	-webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.th_act_inner.first{
+	-moz-border-radius-topleft:  10px;  
+	-webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cuadro_white.gray{
+	background-position: 0 -23px;
+}
+
+td{	
+	vertical-align: top;
+	padding: 5px !important;
+}
+table{
+	padding: 0px 10px 10px 10px;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "Segoe UI";
+}
+
+.sorting{
+	background:url(../images/tbl_header.png) no-repeat;
+}
+.sorting_desc{
+	background:url(../images/tbl_headerSortDown.png) no-repeat;
+}
+.sorting_asc{
+	background:url(../images/tbl_headerSortUp.png) no-repeat;
+}
+.dataTables_filter label{
+	font-weight: bold;
+}
+/* estilo para poner horizontales los chexk que quitar los campos */
+.option_bloq{
+	float: left;
+	margin: 10px 13px;
+}
+
+#contenido_bloque ul{
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+#contenido_bloque li{
+    border-bottom: 1px solid #CCC;
+    width: 100%;    
+}
+#contenido_bloque .titulolista{
+    font-size:13px;
+    font-weight:bold;
+    color:#000;
+    cursor: pointer;
+    padding-left:10px;
+    font-size: 14px;
+    line-height: 35px;
+    min-height: 35px;
+}
+#contenido_bloque .titulolista:hover, #contenido_bloque .titulolista.active{
+	background-color: #f5f5f5;
+}
+
+#contenido_bloque .cuerpolista{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    display: none; 
+    /*
+    */
+    margin-bottom: 7px;
+    text-align: justify;
+    line-height: 17px;
+}
+
+.mini-ico{
+	margin-right: 7px;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	background: url(../images/iconerademandas.png) no-repeat;
+	background-size: 300px;
+}
+
+.mini-ico.green-editar{
+	cursor: pointer;
+	background-position: -113px -245px;
+}
+
+.mini-ico.green-eli{
+	cursor: pointer;
+	background-position: -221px -112px;
+}
+.mini-ico.green-act{
+	cursor: pointer;
+	background-position: -230px -353px;
+}
+
+.no_editable{
+	/*
+	*/
+	display: none;
+} 
+.editable{
+	display: block;
+} 	
+.input1{
+	height: 27px;
+	line-height: 27px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+	outline: none;
+	border: 1px solid #CCC;
+}
+
+.title_nota, .form-control{
+	margin: 10px;
+	width: 90%;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, input[type="date"] {
+    display: inline-block;
+    height: 20px;
+    padding: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus, input[type="date"]:focus{
+		border:1px solid #B5B5B5;
+	}
+
+textarea, input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+	input[type="button"], input[type="submit"]{
+		margin: 13px 0;
+		background-color:#1579C4;
+		border:1px solid #1579C4;
+		color:#fff; 
+		font-size:14px;
+		font-weight:normal;
+		text-align: center;
+		line-height:40px;
+		height:40px;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 4px;
+	}
+	input:hover[type="button"], input:hover[type="submit"]{
+		cursor:pointer;
+		background-color:#0063A6;
+		border:1px solid #0063A6;
+
+	}
+
+
+	.title {
+	    background-color: #585858;
+	    color: #fff;
+	    padding: 8px;
+	}
+
+	.important{
+		border-right:2px solid #C00 !important;
+	}
+
+	.da-message
+{	
+	font-size:15px;
+	font-weight: bold;
+	border-bottom:1px solid #d2d2d2;
+	padding:15px 8px 15px 8px;
+	position:relative;
+	vertical-align:middle;
+	cursor:pointer;
+	
+	background-color:#f8f8f8;
+	background-position:12px 12px;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+
+	.da-message p, 
+	.da-message ul, 
+	.da-message ol
+	{
+		margin:0;
+	}
+
+	.da-message ul li, 
+	.da-message ol li
+	{
+		list-style-position:inside;
+		list-style-type:inherit;
+		margin:0;
+	}
+
+	.da-message.error
+	{
+		background-color:#DC6E53;
+		border-color:#DC6E53;
+		color:#FFF;
+	}
+
+	.da-message.error .da-message-close
+	{
+		background-position:right bottom;
+	}
+
+
+	.da-message.success
+	{
+		background-color:#67C295;
+		border-color:#67C295;
+		color:#FFF;
+	}
+
+	.da-message.success .da-message-close
+	{
+		background-position:left bottom;
+	}
+
+
+	.da-message.warning
+	{
+		background-color:#F3A343;
+		border-color:#F3A343;
+		color:#FFF;
+	}
+
+	.da-message.warning .da-message-close
+	{
+		background-position:right top;
+	}
+
+
+	.da-message.info
+	{
+		background-color:#5CB0DC;
+		border-color:#5CB0DC;
+		color:#FFF;
+	}
+
+	.da-message.info .da-message-close
+	{
+		background-position:left top;
+	}
+
+    .on_off_icon{
+		width: 40px;
+		height: 19px;
+		background: url(../images/sprite_on_off.png);
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.on_off_icon.on{background-position: 0px 0px;}
+	.on_off_icon.off{background-position: 0px -22px;}
+
+	h2{
+		margin-bottom: 25px !important;
+		font-family: "Segoe UI";
+	}
+	h2 span{
+		margin-right: 10px;
+	}
+	a.link-blanco{
+	color: #FFF !important;
+}
+
+.input-group {
+    width: 100%;
+}
+.row {
+    height: 100%;
+    display: block !important;
+}
+
+
+
+
+
+/* Let's get this party started */
+
+
+
+.scrollable::-webkit-scrollbar{
+
+
+
+    width: 8px;
+
+
+
+    height: 5px;
+
+
+
+}
+
+
+
+/* Track */
+
+
+
+.scrollable::-webkit-scrollbar-track{
+
+
+
+    background-color:#F2EEED;
+
+
+
+}
+
+
+
+/* Handle */
+
+
+
+.scrollable::-webkit-scrollbar-thumb{
+
+
+
+    background: #C3C8CE; 
+
+
+
+}
+
+
+
+.scrollable::-webkit-scrollbar-thumb:hover{
+
+
+
+    background: #009DDE;
+
+
+
+}
+
+
+
+.scrollable::-webkit-scrollbar-thumb:window-inactive{
+
+
+
+	background: rgba(231,231,231,0.4); 
+
+
+
+
+
+
+
+}
+
+
+
+.scrollable::-webkit-scrollbar-thumb:window-active{
+
+
+
+	background: rgba(231,231,231,0.4); 
+
+
+
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 768px) { 
+	#header .logo{
+		margin: 12px 6px !important; 
+		width: 100px;
+		height: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 970px) { 
+
+}
+@media (min-width: 970px) { 
+	/* centered columns styles */
+	.col-centered { 
+	    display:inline-block;
+	    float:none;
+	    /* reset the text-align */
+	    text-align:left;
+	    /* inline-block space fix */
+	    margin-right:-4px;
+	}
+	#header{
+		height: 75px;
+	}	
+
+
+	.col-80p, .col-20p, .col-md-2.no-float, .col-md-10.no-float {
+	    float: none; /* thanks baxabbit */
+	}
+	.col-md-2, .col-20p
+	{
+	    display: table-cell;
+	}
+	.col-md-10, .col-80p
+	{
+	    display: table-cell;
+	  	float: none;
+	}
+
+
+}
+@media (min-width: 1200px) {
+	.col-20p, .col-80p{
+		float: left;
+	}
+
+	.col-80p {
+		width:80%;
+	}
+	.col-20p {
+		width:20%;
+	}
+
+	.margin_top{
+		margin-top: 40px;
+	}
+	.col-centered { 
+	    display:inline-block;
+	    float:none !important;
+	    /* reset the text-align */
+	    text-align:left;
+	    /* inline-block space fix */
+	    margin-right:-4px;
+	}
+	#id_consulta{
+		width: 800px !important;
+	}
+}	

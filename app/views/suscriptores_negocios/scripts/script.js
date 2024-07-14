@@ -1,0 +1,12 @@
+
+// JavaScript Document
+$(document).ready(function(){
+
+	//JS CODE HERE
+	$('#formsuscriptores_negocios').validate({
+		rules :{	},
+		messages : {		}
+ 	}); 
+	
+	$('#fecha').datepicker();	 	
+});

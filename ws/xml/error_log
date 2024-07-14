@@ -1,0 +1,717 @@
+[31-Jul-2018 14:29:29 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:29:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/app/DALC/Con_mySql_li.php:49) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 3848
+[31-Jul-2018 14:30:54 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:30:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/app/DALC/Con_mySql_li.php:49) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 3848
+[31-Jul-2018 14:31:12 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:32:32 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:34:00 America/Chicago] PHP Warning:  include_once(/home3/expvir/public_html/app/DALC//mySql_li.php): failed to open stream: No such file or directory in /home3/expvir/public_html/ws/xml/headers.php on line 98
+[31-Jul-2018 14:34:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/home3/expvir/public_html/app/DALC//mySql_li.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/expvir/public_html/ws/xml/headers.php on line 98
+[31-Jul-2018 14:34:00 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ConexionBaseDatos' not found in /home3/expvir/public_html/ws/xml/headers.php:110
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(2): include()
+#1 {main}
+  thrown in /home3/expvir/public_html/ws/xml/headers.php on line 110
+[31-Jul-2018 14:34:27 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:34:41 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:37:33 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:38:35 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:38:44 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:39:34 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:42:12 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:12 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:12 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:12 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:12 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:42:59 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:59 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:59 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:59 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:42:59 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:43:58 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:43:58 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:43:58 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:43:58 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:43:58 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:44:07 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:44:07 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:44:07 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:44:07 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:44:07 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:45:42 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:45:42 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:45:42 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:45:42 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:45:42 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:46:02 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:02 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:02 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:02 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:02 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:46:05 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:05 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:05 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:05 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:06 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:46:10 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:10 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:10 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:10 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:10 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:46:51 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:51 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:51 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:51 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:46:51 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:46:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/headers.php:82) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 3849
+[31-Jul-2018 14:47:23 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:47:23 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:47:23 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:47:23 America/Chicago] PHP Deprecated:  Function mcrypt_decrypt() is deprecated in /home3/expvir/public_html/ws/xml/headers.php on line 82
+[31-Jul-2018 14:47:23 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '�����eq�M�U����責�&amp;'��0�w�x��' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:50:29 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost|' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:51:27 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost|' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:52:03 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost|' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:52:13 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost|' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 14:59:31 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost|' (0) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49
+[31-Jul-2018 15:16:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'GetDataXml' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 22
+[31-Jul-2018 15:16:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function GetDataXml() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:25
+Stack trace:
+#0 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 25
+[31-Jul-2018 15:41:48 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 20
+[31-Jul-2018 15:41:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:41:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:41:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:41:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:14 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 20
+[31-Jul-2018 15:42:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:46 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 20
+[31-Jul-2018 15:42:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:42:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:44:13 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to XML2Array() must be an instance of SimpleXMLElement, boolean given, called in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 21 and defined in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:31
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(21): XML2Array(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->GetDataXml(Array)
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(57): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 31
+[31-Jul-2018 15:45:10 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Gestion::XML2Array() must be an instance of SimpleXMLElement, boolean given, called in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 21 and defined in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(21): Gestion->XML2Array(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->GetDataXml(Array)
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(56): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 27
+[31-Jul-2018 15:45:38 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Gestion::XML2Array() must be an instance of SimpleXMLElement, boolean given, called in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 21 and defined in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(21): Gestion->XML2Array(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->GetDataXml(Array)
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(56): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 27
+[31-Jul-2018 15:46:22 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Gestion::XML2Array() must be an instance of SimpleXMLElement, boolean given, called in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 21 and defined in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(21): Gestion->XML2Array(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->GetDataXml(Array)
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(56): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 27
+[31-Jul-2018 15:47:18 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 20
+[31-Jul-2018 15:47:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:47:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:47:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:47:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:51:03 America/Chicago] PHP Warning:  Illegal string offset 'parametros' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:51:03 America/Chicago] PHP Warning:  Illegal string offset 'oficina' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:51:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:51:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:51:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:51:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:52:17 America/Chicago] PHP Warning:  Illegal string offset 'parametros' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:52:17 America/Chicago] PHP Warning:  Illegal string offset 'oficina' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:53:45 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:53:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:53:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:53:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:53:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:48) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:54:31 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:54:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:54:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:54:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:54:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:07 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:58:07 America/Chicago] PHP Warning:  simplexml_load_string(): xmlstring in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:58:07 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:58:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:22 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 15:58:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 15:58:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:01:44 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 16:01:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:01:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:01:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:01:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:03:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:03:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:03:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:03:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:06:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 16:09:06 America/Chicago] PHP Warning:  Illegal string offset 'parametros' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 25
+[31-Jul-2018 16:10:15 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 20
+[31-Jul-2018 16:10:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:10:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:10:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:10:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:10:50 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 25
+[31-Jul-2018 16:11:47 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 20
+[31-Jul-2018 16:11:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:11:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:11:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:11:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:20) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:12:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:50) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:12:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:50) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:12:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:50) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:12:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:50) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:43 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 16:18:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:56 America/Chicago] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, array given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 19
+[31-Jul-2018 16:18:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:18:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:19) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:21:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:25:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:55) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:25:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:55) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:25:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:55) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:25:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:55) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:31:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:53) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:31:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:53) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:31:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:53) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 16:31:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:53) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[31-Jul-2018 17:12:49 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 51
+[01-Aug-2018 16:47:15 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'MAreas' not found in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:182
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->GetDataXml(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#2 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(301): nusoap_server->service('<soapenv:Envelo...')
+#3 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 182
+[01-Aug-2018 16:59:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/app/models/GestionM.php:456) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[01-Aug-2018 16:59:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/app/models/GestionM.php:456) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[01-Aug-2018 16:59:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/app/models/GestionM.php:456) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[01-Aug-2018 16:59:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/app/models/GestionM.php:456) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:15:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:15:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:15:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:15:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:16:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:60) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:43:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function array2XML() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:312
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(27): Gestion->array2XML(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->AddDataXml(Array)
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(370): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 312
+[02-Aug-2018 10:43:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:43:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:43:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:43:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:44:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:44:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:44:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:44:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:27) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:46:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 10:47:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:34:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method MGestion::GetUser_id() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:117
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->AddDataXml(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#2 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(460): nusoap_server->service('<soapenv:Envelo...')
+#3 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 117
+[02-Aug-2018 15:36:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method MGestion::GetA_i() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:117
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->AddDataXml(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#2 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(460): nusoap_server->service('<soapenv:Envelo...')
+#3 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 117
+[02-Aug-2018 15:38:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method MGestion::GetUser_id() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:144
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->AddDataXml(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#2 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(460): nusoap_server->service('<soapenv:Envelo...')
+#3 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 144
+[02-Aug-2018 15:56:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:43) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:56:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:43) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:56:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:43) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:56:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:43) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:57:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:44) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:57:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:44) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:57:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:44) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 15:57:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:44) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:02:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:03:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:03:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:03:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 16:03:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:45) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:55:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:55:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:55:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:55:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:57:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:58:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 271
+[02-Aug-2018 22:58:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:58:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:58:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 22:58:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:271) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:06:30 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:10:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:10:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:10:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:10:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:10:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:10:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:10:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:10:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:12:02 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:12:02 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:12:02 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:12:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:12:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:12:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:12:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:12:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 179
+[02-Aug-2018 23:13:27 America/Chicago] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;
+         &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+         &lt;parametros&gt;
+		&lt;keyid&gt;wzawqf2wy8r&lt;/keyid&gt;
+		&lt;tipokey&gt;Registro&lt;/tipokey&gt;
+		&lt;ipconsumo&gt;162.144.153.41&lt;/ipconsumo&gt;
+		&lt;departamento&gt;ANTIOQUIA&lt;/departamento&gt;
+		&lt;municipio&gt;SABANETA&lt;/municipio&gt;
+		&lt;oficina&gt;FUKUTEX S.A.S.&lt;/oficina&gt;
+		&lt;dependencia&gt;GESTION DE LAS TICS&lt;/dependencia&gt;
+		&lt;responsable&gt;Sander Cadena&lt;/responsable&gt;
+		&lt;nombre_serie&gt;Analisis&lt;/nombre_serie&gt;
+		&lt;nombre_subserie&gt;Desarrollo de Software&lt;/nombre_subserie&gt;
+		&lt;titulo_exp&gt;XML f&lt;/titulo_exp&gt;
+		&lt;radicado&gt;2018xml-formulario&lt;/radicado&gt;
+		&lt;fecha_apertura&gt;&lt;anio&gt;2018&lt;/anio&gt;&lt;mes&gt;08&lt;/mes&gt;&lt;dia&gt;02&lt;/dia&gt;&lt;/fecha_apertura&gt;
+		&lt;fecha_cierre&gt;&lt;anio&gt;2018&lt;/anio&gt;&lt;mes&gt;08&lt;/mes&gt;&lt;dia&gt;02&lt;/dia&g in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:13:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:13:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:13:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:13:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:13:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:13:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:13:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:13:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:176) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:14:05 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:14:05 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:14:05 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:14:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:14:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:14:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:14:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:172) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:17:20 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:20 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:20 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:47 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:47 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:47 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:53 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:53 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:17:53 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:18:32 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:18:32 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:18:32 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:19:39 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:19:39 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:19:39 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:20:04 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:20:04 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:20:04 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 171
+[02-Aug-2018 23:24:09 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:24:09 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:24:09 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:25:22 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:25:22 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:25:22 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:25:37 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:25:37 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:25:37 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:26:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 174
+[02-Aug-2018 23:26:41 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 2: parser error : XML declaration allowed only at the start of the document in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:26:41 America/Chicago] PHP Warning:  simplexml_load_string():          &lt;?xml version=&quot;1.0&quot;?&gt; in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:26:41 America/Chicago] PHP Warning:  simplexml_load_string():               ^ in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 172
+[02-Aug-2018 23:29:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:29:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:29:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:29:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:30:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:173) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:31:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:32:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:33:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:276) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 277
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 277
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 423
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 423
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:34:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 278
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 278
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 424
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 424
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:35:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:174) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:37:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 276
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 422
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:38:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:177) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 278
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 278
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 424
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 424
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:278) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:278) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:278) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:278) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 280
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 280
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Illegal string offset 'campo_a' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 426
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Illegal string offset 'nombre' in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 426
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:181) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:181) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:181) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:39:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:181) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:40:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:41:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:41:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:41:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:41:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:42:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:42:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:42:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:42:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:185) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:43:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:275) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:43:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:275) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:43:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:275) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:43:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:275) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:46:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:46:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:46:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:46:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:33) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:48:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:48:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:48:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:48:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:49:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:49:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:49:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:49:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:52) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:51:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:25) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:51:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:25) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:51:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:25) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:51:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:25) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:53:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:53:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:53:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:53:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:28) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:38) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:38) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:38) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:54:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:38) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:55:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:55:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:55:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:55:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:51) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:56:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:57) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:56:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:57) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:56:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:57) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:56:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:57) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:57:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:57:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:57:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:57:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:58:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:58:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:58:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[02-Aug-2018 23:58:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:59) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:03:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:504) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:03:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:504) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:03:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:504) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:03:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:504) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:04:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:04:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:04:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:04:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:05:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:05:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:05:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:05:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:505) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:30:11 America/Chicago] PHP Warning:  htmlentities() expects parameter 1 to be string, object given in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 529
+[03-Aug-2018 00:30:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:529) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:30:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:529) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:30:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:529) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:30:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:529) in /home3/expvir/public_html/ws/xml/lib/nusoap.php on line 4388
+[03-Aug-2018 00:32:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function array2XML() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:530
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(83): Gestion->array2XML(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(568): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 530
+[03-Aug-2018 00:32:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function array2XML() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:530
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(83): Gestion->array2XML(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(568): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 530
+[03-Aug-2018 00:34:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function array2XML() in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php:530
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(83): Gestion->array2XML(Array)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(568): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/ws/xml/ws.xml.gestion.php on line 530
+[03-Aug-2018 15:29:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(88): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(580): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:30:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(89): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(581): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:31:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(89): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(581): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:31:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(89): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(581): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:33:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(80): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(572): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:33:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(80): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(572): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:33:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(80): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(572): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:33:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(80): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(572): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102
+[03-Aug-2018 15:34:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home3/expvir/public_html/app/DALC/Con_mySql_li.php:102
+Stack trace:
+#0 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(81): ConexionBaseDatos->FetchAssoc(false)
+#1 /home3/expvir/public_html/ws/xml/lib/nusoap.php(4201): Gestion->SetDataXml('\n         \t<par...')
+#2 /home3/expvir/public_html/ws/xml/lib/nusoap.php(3823): nusoap_server->invoke_method()
+#3 /home3/expvir/public_html/ws/xml/ws.xml.gestion.php(573): nusoap_server->service('<soapenv:Envelo...')
+#4 {main}
+  thrown in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 102

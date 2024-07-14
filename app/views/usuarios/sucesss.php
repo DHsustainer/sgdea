@@ -1,0 +1,1 @@
+Su Registro ha sido completado, porfavor dirigase a su bandeja de correo para obtener su nombre de usuario y clave

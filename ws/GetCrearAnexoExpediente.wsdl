@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:CrearAnexoExpediente" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:CrearAnexoExpediente">
+<types>
+<xsd:schema targetNamespace="urn:CrearAnexoExpediente"
+>
+ <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+ <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+</xsd:schema>
+</types>
+<message name="GetCrearAnexoExpedienteRequest">
+  <part name="usuario" type="xsd:string" />
+  <part name="clave" type="xsd:string" />
+  <part name="tipo" type="xsd:string" />
+  <part name="archivo_nombre" type="xsd:string" />
+  <part name="data_archivo" type="xsd:string" />
+  <part name="id_gestion" type="xsd:string" />
+  <part name="cantidad" type="xsd:string" />
+  <part name="tipoarchi" type="xsd:string" /></message>
+<message name="GetCrearAnexoExpedienteResponse">
+  <part name="return" type="xsd:string" /></message>
+<portType name="CrearAnexoExpedientePortType">
+  <operation name="GetCrearAnexoExpediente">
+    <documentation>Servicio para crear un Anexo en un expediente</documentation>
+    <input message="tns:GetCrearAnexoExpedienteRequest"/>
+    <output message="tns:GetCrearAnexoExpedienteResponse"/>
+  </operation>
+</portType>
+<binding name="CrearAnexoExpedienteBinding" type="tns:CrearAnexoExpedientePortType">
+  <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <operation name="GetCrearAnexoExpediente">
+    <soap:operation soapAction="urn:CrearAnexoExpediente#GetCrearAnexoExpediente" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:CrearAnexoExpediente" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:CrearAnexoExpediente" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+</binding>
+<service name="CrearAnexoExpediente">
+  <port name="CrearAnexoExpedientePort" binding="tns:CrearAnexoExpedienteBinding">
+    <soap:address location="https://expedientesdigitales.com:443/ws/GetCrearAnexoExpediente.php"/>
+  </port>
+</service>
+</definitions>

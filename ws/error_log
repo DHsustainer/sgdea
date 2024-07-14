@@ -1,0 +1,1 @@
+[31-Jul-2018 14:36:03 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/expvir/public_html/app/DALC/Con_mySql_li.php on line 49

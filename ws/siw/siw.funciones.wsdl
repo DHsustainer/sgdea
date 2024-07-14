@@ -1,0 +1,115 @@
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:siw.funciones" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:siw.funciones">
+<types>
+<xsd:schema targetNamespace="urn:siw.funciones">
+<xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+<xsd:import namespace="http://schemas.xmlsoap.org/wsdl/"/>
+</xsd:schema>
+</types>
+<message name="Gestion_Funciones.RegistrarActuacionRequest">
+<part name="key" type="xsd:string"/>
+<part name="id_externo" type="xsd:string"/>
+<part name="usuario" type="xsd:string"/>
+<part name="fecha" type="xsd:string"/>
+<part name="title" type="xsd:string"/>
+<part name="description" type="xsd:string"/>
+</message>
+<message name="Gestion_Funciones.RegistrarActuacionResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<message name="Gestion_Funciones.EnviarCorreoRequest">
+<part name="key" type="xsd:string"/>
+<part name="id_externo" type="xsd:string"/>
+<part name="to" type="xsd:string"/>
+<part name="subject" type="xsd:string"/>
+<part name="message" type="xsd:string"/>
+<part name="attachments" type="xsd:string"/>
+</message>
+<message name="Gestion_Funciones.EnviarCorreoResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<message name="Gestion_Funciones.EnviarNotificacionFisicaRequest">
+<part name="key" type="xsd:string"/>
+<part name="id_externo" type="xsd:string"/>
+<part name="remitente" type="xsd:string"/>
+<part name="destinatario" type="xsd:string"/>
+<part name="direccion" type="xsd:string"/>
+<part name="dcontenido" type="xsd:string"/>
+<part name="attachments" type="xsd:string"/>
+</message>
+<message name="Gestion_Funciones.EnviarNotificacionFisicaResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<message name="Gestion_Funciones.GetListadoTipologiasRequest">
+<part name="key" type="xsd:string"/>
+<part name="radicado" type="xsd:string"/>
+</message>
+<message name="Gestion_Funciones.GetListadoTipologiasResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<portType name="siw.funcionesPortType">
+<operation name="Gestion_Funciones.RegistrarActuacion">
+<documentation>Servicio de prueba</documentation>
+<input message="tns:Gestion_Funciones.RegistrarActuacionRequest"/>
+<output message="tns:Gestion_Funciones.RegistrarActuacionResponse"/>
+</operation>
+<operation name="Gestion_Funciones.EnviarCorreo">
+<documentation>Servicio de prueba</documentation>
+<input message="tns:Gestion_Funciones.EnviarCorreoRequest"/>
+<output message="tns:Gestion_Funciones.EnviarCorreoResponse"/>
+</operation>
+<operation name="Gestion_Funciones.EnviarNotificacionFisica">
+<documentation>Servicio de prueba</documentation>
+<input message="tns:Gestion_Funciones.EnviarNotificacionFisicaRequest"/>
+<output message="tns:Gestion_Funciones.EnviarNotificacionFisicaResponse"/>
+</operation>
+<operation name="Gestion_Funciones.GetListadoTipologias">
+<documentation>Servicio de prueba</documentation>
+<input message="tns:Gestion_Funciones.GetListadoTipologiasRequest"/>
+<output message="tns:Gestion_Funciones.GetListadoTipologiasResponse"/>
+</operation>
+</portType>
+<binding name="siw.funcionesBinding" type="tns:siw.funcionesPortType">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="Gestion_Funciones.RegistrarActuacion">
+<soap:operation soapAction="urn:Siw.Gestion_Funciones#RegistrarActuacion" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+<operation name="Gestion_Funciones.EnviarCorreo">
+<soap:operation soapAction="urn:Siw.Gestion_Funciones#EnviarCorreo" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+<operation name="Gestion_Funciones.EnviarNotificacionFisica">
+<soap:operation soapAction="urn:Siw.Gestion_Funciones#EnviarNotificacionFisica" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+<operation name="Gestion_Funciones.GetListadoTipologias">
+<soap:operation soapAction="urn:Siw.Gestion_Funciones#GetListadoTipologias" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:Siw.Gestion_Funciones" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+</binding>
+<service name="siw.funciones">
+<port name="siw.funcionesPort" binding="tns:siw.funcionesBinding">
+<soap:address location="https://expedientesdigitales.com:443/ws/siw/ws.gestion_acciones.php"/>
+</port>
+</service>
+</definitions>

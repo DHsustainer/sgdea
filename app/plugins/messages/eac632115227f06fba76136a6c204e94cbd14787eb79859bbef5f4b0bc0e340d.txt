@@ -1,0 +1,17 @@
+<div style="background:#FFF width:100%; margin:0 auto; font-size:11px; font-family:Verdana, Geneva, sans-serif"><br><table width="600" align="center" cellspacing="0" cellpadding="0"> <tbody> <tr> <td align="left" valign="middle" style="background:#FFF; padding:10px;border-top:2px solid #1579C4;border-left:1px solid #FFF;border-right:1px solid #FFF;" height="50px"><img src="https://expedientesdigitales.com/app/plugins/thumbnails/502c9e_jpeg-home.jpg" width="150px"></td> </tr> <tr> <td style="background: rgb(252, 252, 252); border: 1px solid rgb(245, 245, 245); margin-top: 10px; padding: 15px;" align="justify"><p style=""><b style=""><font color="#444444"><span style="font-size: 12px;">Remitente:&nbsp;</span></font></b><span style="text-align: left;">&nbsp;</span><b style="text-align: left;">[elemento]PROJECTNAME[/elemento]</b><span style="text-align: left;">&nbsp;</span></p>	<p style="color: rgb(68, 68, 68); font-size: 12px;"><b>Asunto:&nbsp;</b>Mensaje de prueba</p>	<p style="color: rgb(68, 68, 68); font-size: 12px;"><b>Fecha:&nbsp;</b>08-06-2018 01:52:31 pm</p><p style="color: rgb(68, 68, 68); font-size: 12px;"><span style="font-weight: 700;">Radicado:&nbsp;</span>[elemento]rad_rapido[/elemento]<span style="font-size: 11px; color: rgb(0, 0, 0); text-align: left;">&nbsp;</span><span style="text-align: left;">&nbsp;</span></p>	<p style="color: rgb(68, 68, 68); font-size: 12px;">	Este es un Aviso de Comunicaci&oacute;n Electr&oacute;nica el cual requiere de su aceptaci&oacute;n para indicar que es usted el destinatario, que esta de acuerdo en recibir la informaci&oacute;n por este medio y que quiere conocer el asunto y los anexos incorporados en este mensaje de datos.<br>	</p><p style="color: rgb(68, 68, 68); font-size: 12px;">Lo anterior en cumplimientos de la ley 527 de 1999, ley 734 de 2002, ley 1437 de 2011 y ley 1564 de 2012.&nbsp;</p><p style="color: rgb(68, 68, 68); font-size: 12px;">Por favor elija una opci&oacute;n: </p> <p style="color: rgb(68, 68, 68); font-size: 12px;"><table cellspacing="0" cellpadding="0" border="0">
+					<tbody>
+						<tr>
+							<td height="44" align="center" style="font-family: Verdana, Arial; background:#0072C6;font-size:12px;font-weight:normal;padding-left:12px;padding-right:12px;line-height:30px;margin-left:7px;margin-right:7px; font-weight:bold ">
+								<a href="https://expedientesdigitales.com/correo/acuse/eac632115227f06fba76136a6c204e94cbd14787eb79859bbef5f4b0bc0e340d.2/" target="_blank"style=" color:#FFF">Rehusarse</a>
+							</td>
+						</tr>
+					</tbody>
+				</table> <table cellspacing="0" cellpadding="0" border="0">
+					<tbody>
+						<tr>
+							<td height="44" align="center" style="font-family: Verdana, Arial; background:#0072C6;font-size:12px;font-weight:normal;padding-left:12px;padding-right:12px;line-height:30px;margin-left:7px;margin-right:7px; font-weight:bold ">
+								<a href="https://expedientesdigitales.com/correo/acuse/eac632115227f06fba76136a6c204e94cbd14787eb79859bbef5f4b0bc0e340d.1/" target="_blank"style=" color:#FFF">Ver Contenido del mensaje</a>
+							</td>
+						</tr>
+					</tbody>
+				</table></p><div style="color: rgb(68, 68, 68); font-size: 12px;"></div></td> </tr></tbody> </table> </div>

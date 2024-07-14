@@ -1,0 +1,195 @@
+#content { 
+	color: #333;
+	height: 385px;
+}
+.clear{
+	clear:both;
+}
+/* end: maquetación */
+
+#tabla_login{
+	margin: 0 auto;
+	padding-bottom:10px;
+	color:#222;
+	font-size:12px;	
+	
+}
+#tabla_login tr td{
+	position: relative;
+	padding-bottom: 15px;
+} 
+.float_icon{
+	position: absolute;
+	width: 62px;
+	height: 62px;
+	border-radius: 30px;
+	background-color: #fff;
+	top:0px;
+}.float_icon + div{
+	width: 55px;
+	height: 55px;
+	border-radius: 30px;
+	top:-8;
+	left: 1;
+	z-index: 2;
+	margin-top: 2.5px;
+	margin-left: 2.5px;
+	position: absolute;
+	background-color: #1263a1;
+}
+.float_icon + div div{
+	width: 35px;
+	height:35px;
+	background: url(../images/iconerademandas.png);
+	margin-top: 5px; 
+	margin-left: 11px;
+}
+.float_icon.white{
+	background-color: #1263a1;
+	margin-top: -6px;
+
+}
+.float_icon.white + div{
+	background-color: #fff;
+	margin-top: -2px;
+}
+.float_icon.white#image_username + div div{background-position:-183px 2px;}
+.float_icon#image_username + div div{background-position:-182px -1px;}
+.float_icon#image_password + div div{background-position:-218px -178px;}
+.float_icon.white#image_password + div div{background-position:-218px -176px;}
+.float_icon#image_arrow + div div{background-position:-182px -175px;}
+.float_icon.white#image_arrow + div div{background-position:-182px -141px;}
+
+#header_login{
+	/* Some code Here */
+}
+
+.input_login, .b_login{
+	margin-top: 10px;
+}
+
+.icons_login{
+	
+}
+#msg_field{
+	text-align: center;
+}
+#mensaje_login{
+	float:left;
+	text-align:left;
+	color:#333;
+	padding:4px
+}
+.login_box{
+	text-align:left;
+	padding:60px;
+	font-size:10px;
+	margin:0 auto;
+	clear: both;
+	margin-top: 15px;
+
+}
+
+.form-group-lg .form-control {
+    font-size: 13px !important;
+}
+
+.padding_30{
+	padding: 30px;
+}
+
+.rest_clave{
+	text-align: center;
+}
+.rest_clave a{
+	text-decoration: none;
+	color:#000;
+	line-height: 48px;
+}
+
+#login-form{
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 30px;
+	border-radius: 4px;
+	border: 1px solid #CCC;
+}
+
+.form-group{
+	margin-bottom: 20px !important;
+	width: 100%;
+}
+
+.input-group {
+    width: 100%;
+}
+.row {
+    height: 100%;
+    display: block !important;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 768px) { 
+	#header .logo{
+		margin: 12px 6px !important; 
+		width: 100px;
+		height: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 970px) { 
+
+}
+@media (min-width: 970px) { 
+	/* centered columns styles */
+	.col-centered { 
+	    display:inline-block;
+	    float:none;
+	    /* reset the text-align */
+	    text-align:left;
+	    /* inline-block space fix */
+	    margin-right:-4px;
+	}
+	#header{
+		height: 60px;
+	}	
+
+
+	.col-80p, .col-20p, .col-md-2.no-float, .col-md-10.no-float {
+	    float: none; /* thanks baxabbit */
+	}
+	.col-md-2, .col-20p
+	{
+	    display: table-cell;
+	}
+	.col-md-10, .col-80p
+	{
+	    display: table-cell;
+	  	float: none;
+	}
+
+
+}
+@media (min-width: 1200px) {
+	.col-20p, .col-80p{
+		float: left;
+	}
+
+	.col-80p {
+		width:80%;
+	}
+	.col-20p {
+		width:20%;
+	}
+
+	.margin_top{
+		margin-top: 40px;
+	}
+	.col-centered { 
+	    display:inline-block;
+	    float:none !important;
+	    /* reset the text-align */
+	    text-align:left;
+	    /* inline-block space fix */
+	    margin-right:-4px;
+	}
+}	

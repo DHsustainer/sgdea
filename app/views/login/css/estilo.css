@@ -1,0 +1,86 @@
+* { padding: 0; margin: 0; }
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+/* Maquetación */
+#wrapper { 
+	margin: 0 auto;
+	width: 100%;
+}
+
+#header {
+	width: 100%;
+	float: left;
+	height: 120px;
+	background:#0099CC;
+	border-bottom:1px solid #D9E3E5;	
+}
+
+#content { 
+	float: left;
+	color: #333;
+	width:100%;
+	height:inherit;
+	display: inline;
+}
+/* end: maquetación */
+
+
+/*------------- ESTILOS TABLA -----------------*/
+.tabla{
+	margin:15px;
+}
+.tabla th {
+padding: 5px;
+padding-left:20px;
+padding-right:20px;
+font-size: 16px;
+height:20px;
+color: #FFFFFF;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+
+.tabla td {
+	padding: 5px;
+	text-align:left;
+	border-bottom: 1px solid #95B3D7;
+} 
+
+.tabla .encabezado{
+	cursor:pointer;
+	background:#4F81BD;
+	text-align:center;
+}
+
+.par, .impar{
+	background-color:#FFFFFF;
+	line-height:20px;	
+}
+.par{
+	background:#DCE6F1;
+}
+.par:hover, .impar:hover{
+	background:#95B3D7;	
+	cursor:pointer;
+}
+.header{
+	background:url(../images/tbl_header.png) no-repeat;
+}
+.headerSortDown{
+	background:url(../images/tbl_headerSortDown.png) no-repeat;	
+}
+.headerSortUp{
+	background:url(../images/tbl_headerSortUp.png) no-repeat;	
+}
+
+
+/*----------------------- FOOTER --------------------------------------*/
+#footer{
+	clear:both;
+	height:150px;
+	background: #0099CC;
+}

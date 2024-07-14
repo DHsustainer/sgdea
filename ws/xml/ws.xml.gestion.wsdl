@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:ws.xml.gestion" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:ws.xml.gestion">
+<types>
+<xsd:schema targetNamespace="urn:ws.xml.gestion"
+>
+ <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+ <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+</xsd:schema>
+</types>
+<message name="Gestion.GetDataXmlRequest">
+  <part name="xmlstring" type="xsd:string" /></message>
+<message name="Gestion.GetDataXmlResponse">
+  <part name="return" type="xsd:string" /></message>
+<message name="Gestion.AddDataXmlRequest">
+  <part name="xmlstring" type="xsd:string" /></message>
+<message name="Gestion.AddDataXmlResponse">
+  <part name="return" type="xsd:string" /></message>
+<message name="Gestion.SetDataXmlRequest">
+  <part name="xmlstring" type="xsd:string" /></message>
+<message name="Gestion.SetDataXmlResponse">
+  <part name="return" type="xsd:string" /></message>
+<portType name="ws.xml.gestionPortType">
+  <operation name="Gestion.GetDataXml">
+    <documentation>Creacion de expediente spor medio de un string XML</documentation>
+    <input message="tns:Gestion.GetDataXmlRequest"/>
+    <output message="tns:Gestion.GetDataXmlResponse"/>
+  </operation>
+  <operation name="Gestion.AddDataXml">
+    <documentation>Agregar documentos a un expediente por medio de un string XML</documentation>
+    <input message="tns:Gestion.AddDataXmlRequest"/>
+    <output message="tns:Gestion.AddDataXmlResponse"/>
+  </operation>
+  <operation name="Gestion.SetDataXml">
+    <documentation>Consultar un expediente por medio de un string XML</documentation>
+    <input message="tns:Gestion.SetDataXmlRequest"/>
+    <output message="tns:Gestion.SetDataXmlResponse"/>
+  </operation>
+</portType>
+<binding name="ws.xml.gestionBinding" type="tns:ws.xml.gestionPortType">
+  <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <operation name="Gestion.GetDataXml">
+    <soap:operation soapAction="urn:ws.xml.gestion#GetDataXml" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:ws.xml.gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:ws.xml.gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+  <operation name="Gestion.AddDataXml">
+    <soap:operation soapAction="urn:ws.xml.gestion#AddDataXml" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:ws.xml.gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:ws.xml.gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+  <operation name="Gestion.SetDataXml">
+    <soap:operation soapAction="urn:ws.xml.gestion#SetDataXml" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:ws.xml.gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:ws.xml.gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+</binding>
+<service name="ws.xml.gestion">
+  <port name="ws.xml.gestionPort" binding="tns:ws.xml.gestionBinding">
+    <soap:address location="https://expedientesdigitales.com:443/ws/xml/ws.xml.gestion.php"/>
+  </port>
+</service>
+</definitions>

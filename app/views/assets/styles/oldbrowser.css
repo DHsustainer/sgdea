@@ -1,0 +1,68 @@
+#browserlist{
+	width: 100%;
+	height: 30px;
+}
+.bloque_browser{
+	float:left;
+	border-bottom: 3px solid #CCC;
+	height: 65px;
+	margin-left: 20px;
+}
+.browser{
+	height: 50px;
+	width: 50px;
+	background: URL(http://static.cisoft.co/images/sprite_browsers.png) no-repeat;
+	float:left;
+	margin-top: 10px;
+	margin-right: 7px;
+	cursor: pointer;
+}
+.browser.chrome{
+	background-position: 0 -100px;	
+}
+.browser.iexplorer{
+	background-position: 0 0px;		
+}
+.browser.firefox{
+	background-position: 0 -150px;		
+}
+.browser.opera{
+	background-position: 0 -200px;		
+}
+.browser.safari{
+	background-position: 0 -50px;		
+}
+.bloque_browser .bloque_texto{
+	float:left;
+	height: 65px;
+	width: 110px;
+}
+.bloque_browser .bloque_texto .titulo{
+	font-size: 12px;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+.bloque_browser .bloque_texto .texto{
+	font-size: 10px;	
+}
+.bloque1{
+	float:left;
+	margin-left: 27px;
+	margin-top: 20px;
+	width: 50%;
+}
+
+.bloque1 p{
+	margin: 25px 0 25px 0;
+	line-height: 24px;
+	font-size: 20px;
+}
+.bloque1 h2{
+	font-size: 26px;
+}
+.getsome{
+	margin-left: 27px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}

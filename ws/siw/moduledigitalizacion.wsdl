@@ -1,0 +1,63 @@
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:moduledigitalizacion" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:moduledigitalizacion">
+<types>
+<xsd:schema targetNamespace="urn:moduledigitalizacion">
+<xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+<xsd:import namespace="http://schemas.xmlsoap.org/wsdl/"/>
+</xsd:schema>
+</types>
+<message name="Gestion_anexos.UploadRequest">
+<part name="key" type="xsd:string"/>
+<part name="archivo_nombre" type="xsd:string"/>
+<part name="data_archivo" type="xsd:string"/>
+<part name="radicado" type="xsd:string"/>
+<part name="tipoarchi" type="xsd:string"/>
+</message>
+<message name="Gestion_anexos.UploadResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<message name="Gestion_anexos.GetListadoTipologiasRequest">
+<part name="key" type="xsd:string"/>
+<part name="radicado" type="xsd:string"/>
+</message>
+<message name="Gestion_anexos.GetListadoTipologiasResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<portType name="moduledigitalizacionPortType">
+<operation name="Gestion_anexos.Upload">
+<documentation>Servicio de prueba</documentation>
+<input message="tns:Gestion_anexos.UploadRequest"/>
+<output message="tns:Gestion_anexos.UploadResponse"/>
+</operation>
+<operation name="Gestion_anexos.GetListadoTipologias">
+<documentation>Servicio de prueba</documentation>
+<input message="tns:Gestion_anexos.GetListadoTipologiasRequest"/>
+<output message="tns:Gestion_anexos.GetListadoTipologiasResponse"/>
+</operation>
+</portType>
+<binding name="moduledigitalizacionBinding" type="tns:moduledigitalizacionPortType">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="Gestion_anexos.Upload">
+<soap:operation soapAction="urn:Gestion_anexos#Upload" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:Gestion_anexos" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:Gestion_anexos" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+<operation name="Gestion_anexos.GetListadoTipologias">
+<soap:operation soapAction="urn:Gestion_anexos#GetListadoTipologias" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:Gestion_anexos" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:Gestion_anexos" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+</binding>
+<service name="moduledigitalizacion">
+<port name="moduledigitalizacionPort" binding="tns:moduledigitalizacionBinding">
+<soap:address location="https://expedientesdigitales.com:443/ws/siw/ws.gestion_anexosById.php"/>
+</port>
+</service>
+</definitions>

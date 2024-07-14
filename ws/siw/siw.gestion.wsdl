@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:siw.gestion" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:siw.gestion">
+<types>
+<xsd:schema targetNamespace="urn:siw.gestion"
+>
+ <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+ <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+</xsd:schema>
+</types>
+<message name="Gestion.GetDataRequest">
+  <part name="key" type="xsd:string" />
+  <part name="cedula" type="xsd:string" />
+  <part name="nit_suscriptor" type="xsd:string" />
+  <part name="nombre_suscriptor" type="xsd:string" />
+  <part name="tipo_suscriptor" type="xsd:string" />
+  <part name="Direccion_suscriptor" type="xsd:string" />
+  <part name="Telefonos_suscriptor" type="xsd:string" />
+  <part name="Email_suscriptor" type="xsd:string" />
+  <part name="radicado" type="xsd:string" />
+  <part name="dependencia_destino" type="xsd:string" />
+  <part name="observacion" type="xsd:string" />
+  <part name="id_externo" type="xsd:string" />
+  <part name="fecha_ingreso" type="xsd:string" /></message>
+<message name="Gestion.GetDataResponse">
+  <part name="return" type="xsd:string" /></message>
+<message name="Gestion.UpdateGestionRequest">
+  <part name="key" type="xsd:string" />
+  <part name="estado_solicitud" type="xsd:string" />
+  <part name="nombre_destino" type="xsd:string" />
+  <part name="tipo_documento" type="xsd:string" />
+  <part name="observacion" type="xsd:string" />
+  <part name="estado_archivo" type="xsd:string" />
+  <part name="id_externo" type="xsd:string" /></message>
+<message name="Gestion.UpdateGestionResponse">
+  <part name="return" type="xsd:string" /></message>
+<message name="Gestion.UpdateGestionCodigoExternoRequest">
+  <part name="key" type="xsd:string" />
+  <part name="id_externo" type="xsd:string" />
+  <part name="id_gestion" type="xsd:string" /></message>
+<message name="Gestion.UpdateGestionCodigoExternoResponse">
+  <part name="return" type="xsd:string" /></message>
+<portType name="siw.gestionPortType">
+  <operation name="Gestion.GetData">
+    <documentation>Servicio de prueba</documentation>
+    <input message="tns:Gestion.GetDataRequest"/>
+    <output message="tns:Gestion.GetDataResponse"/>
+  </operation>
+  <operation name="Gestion.UpdateGestion">
+    <documentation>Servicio de prueba</documentation>
+    <input message="tns:Gestion.UpdateGestionRequest"/>
+    <output message="tns:Gestion.UpdateGestionResponse"/>
+  </operation>
+  <operation name="Gestion.UpdateGestionCodigoExterno">
+    <documentation>Servicio de prueba</documentation>
+    <input message="tns:Gestion.UpdateGestionCodigoExternoRequest"/>
+    <output message="tns:Gestion.UpdateGestionCodigoExternoResponse"/>
+  </operation>
+</portType>
+<binding name="siw.gestionBinding" type="tns:siw.gestionPortType">
+  <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <operation name="Gestion.GetData">
+    <soap:operation soapAction="urn:Siw.Gestion#GetData" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:Siw.Gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:Siw.Gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+  <operation name="Gestion.UpdateGestion">
+    <soap:operation soapAction="urn:Siw.Gestion#UpdateGestion" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:Siw.Gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:Siw.Gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+  <operation name="Gestion.UpdateGestionCodigoExterno">
+    <soap:operation soapAction="urn:Siw.Gestion#UpdateGestionCodigoExterno" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:Siw.Gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:Siw.Gestion" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+</binding>
+<service name="siw.gestion">
+  <port name="siw.gestionPort" binding="tns:siw.gestionBinding">
+    <soap:address location="https://expedientesdigitales.com:443/ws/siw/ws.gestion.php"/>
+  </port>
+</service>
+</definitions>

@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+}
+#logo-container{
+	width: 100%; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+#header #logo-container #del-logo-acuse{
+	background: url(../images/logo_azul.png) no-repeat;
+	background-size: 180px;
+	height: 65px;
+	width: 180px;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+#header{
+	background-color: #fff;
+	border-bottom: 2px solid #e3e2e8;
+	height: 90px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+#content_acuse{
+	background: #f0f0f0;
+	overflow: auto;
+	margin: 0 auto;
+	margin-top: 71px;
+	padding-top: 55px;
+	text-align: center;
+}
+
+#main_content_acuse{
+	padding: 38px;
+	background-color: #FFF;
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 55px;
+	text-align: left;
+}
+
+input[type="button"], input[type="submit"]{
+	font-family: "Segoe UI";
+	background-color:#1579C4;
+	border:1px solid #1579C4;
+	color:#fff; 
+	font-size:13px;
+	font-weight:normal;
+	text-align: center;
+	width: 100%; 
+	line-height:30px;
+	height:30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+
+	border-radius:7px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+}
+input:hover[type="button"], input:hover[type="submit"]{
+	cursor:pointer;
+	background-color:#1579C4;
+	border:1px solid #1579C4;
+
+}

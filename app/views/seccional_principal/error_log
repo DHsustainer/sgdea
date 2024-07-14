@@ -1,0 +1,3 @@
+[01-Jul-2015 16:50:49 America/Chicago] PHP Fatal error:  Call to a member function FetchAssoc() on a non-object in /home3/expvir/public_html/app/views/seccional_principal/Listar.php on line 28
+[01-Jul-2015 16:51:33 America/Chicago] PHP Fatal error:  Call to a member function FetchAssoc() on a non-object in /home3/expvir/public_html/app/views/seccional_principal/Listar.php on line 19
+[01-Jul-2015 16:53:02 America/Chicago] PHP Fatal error:  Call to a member function FetchAssoc() on a non-object in /home3/expvir/public_html/app/views/seccional_principal/Listar.php on line 19

@@ -1,0 +1,158 @@
+
+
+
+
+    #list-anexos{
+
+        padding-left: 0px;
+
+    }
+
+    #list-anexos li.anexos-li{
+
+        min-height: 45px;
+
+        line-height: 45px;
+
+        border-top:1px solid #CCC;
+
+        width: 100%;
+
+        list-style: none;
+
+    }
+
+    #list-anexos li.anexos-li .album_inner_button{
+
+        float: left;
+
+        width: 20px;
+
+        margin-top: 15px;
+
+    }
+
+    #list-anexos li.anexos-li .img-icon{
+
+        width: 40px;
+
+        height: 30px;
+
+        background: url(../images/iconimg.png) no-repeat;
+
+        cursor: pointer;
+
+        float: left;
+
+        margin-top: 8px;
+
+    }
+
+    #list-anexos li.anexos-li .img-icon.mp3 { background-position: -214px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.unknow { background-position: -519px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.folder { background-position: -390px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.folderback { background-position: -642px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.folder_private { background-position: -573px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.pdf, #list-anexos li.anexos-li .img-icon.PDF  { background-position: -32px  -972px; }
+
+    #list-anexos li.anexos-li .img-icon.doc, #list-anexos li.anexos-li .img-icon.docx { background-position: -153px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.zip, #list-anexos li.anexos-li .img-icon.rar  { background-position: -336px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.xls, #list-anexos li.anexos-li .img-icon.xlsx, #list-anexos li.anexos-li .img-icon.csv, #list-anexos li.anexos-li .img-icon.xml { background-position: -90px -972px;}
+
+    #list-anexos li.anexos-li .img-icon.avi, #list-anexos li.anexos-li .img-icon.wav,  #list-anexos li.anexos-li .img-icon.wmv, #list-anexos li.anexos-li .img-icon.flv { background-position: -458px -972px; }
+
+    #list-anexos li.anexos-li .img-icon.ppt, #list-anexos li.anexos-li .img-icon.pps,  #list-anexos li.anexos-li .img-icon.pptx,#list-anexos li.anexos-li .img-icon.ppsx{ background-position: -704px -972px;}
+
+    #list-anexos li.anexos-li .img-icon.JPG, #list-anexos li.anexos-li .img-icon.jpg,  #list-anexos li.anexos-li .img-icon.png, #list-anexos li.anexos-li .img-icon.PNG, #list-anexos li.anexos-li .img-icon.jpeg, #list-anexos li.anexos-li .img-icon.JPEG, #list-anexos li.anexos-li .img-icon.tif, #list-anexos li.anexos-li .img-icon.TIF { background-position: -275px -972px; }
+
+    #list-anexos li.anexos-li .nom_anexo{
+
+                    float:left;
+
+                    line-height: 35px;
+
+                    font-size: 12px;
+
+                    overflow-y: hidden ; 
+
+                    overflow-x: hidden ; 
+
+                    padding: 5px;
+
+                    padding-right: 9px;
+
+                    cursor: normal;
+
+                }
+
+                #list-anexos li.anexos-li .nom_anexo:hover{
+
+                    text-decoration: underline;
+
+                    cursor: pointer;
+
+                }
+
+.multiselect {
+    width:100%;
+    height:150px;
+    overflow:auto;
+    border:1px solid #e4e7ea;
+    padding:10px;
+    border-radius: 4px
+}
+ 
+.multiselect label {
+    display:block;
+    font-size:12px;
+    padding-top:-4px;
+}
+ 
+.multiselect-on {
+    color:#ffffff;
+    background-color:#1e88e5;
+}
+
+#pswd_info {
+    position:absolute;
+    display: none;
+    top:75px;
+    width:270px;
+    left:30%;
+    padding:15px;
+    background:#fefefe;
+    font-size:14px !important;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+    z-index: 9;
+}
+#pswd_info h4 {
+    margin:0 0 10px 0;
+    padding:0;
+    font-weight:normal;
+}
+#pswd_info::before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+
+#pswd_info ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    font-size:14px !important;
+}

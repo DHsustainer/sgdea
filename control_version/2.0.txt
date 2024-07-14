@@ -1,0 +1,47 @@
+CREATE TABLE IF NOT EXISTS `funcionalidades` (
+  `id` int(11) NOT NULL,
+  `tipo` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `nombre_campo` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `orden` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+INSERT INTO `funcionalidades` (`id`, `tipo`, `nombre`, `nombre_campo`, `orden`) VALUES
+(1, 'permiso', 'Reparto', 'reparto', 0),
+(2, 'permiso', 'Editar', 'editar', 0),
+(3, 'permiso', 'Eliminar', 'eliminar', 0),
+(4, 'permiso', 'Cambio de usuario', 'cambio_usuario', 3),
+(5, 'permiso', 'Cambio de area', 'cambio_area', 2),
+(6, 'permiso', 'Cambio de oficina', 'cambio_oficina', 1),
+(7, 'permiso', 'Cambio de ciudad', 'cambio_ciudad', 0),
+(8, 'permiso', 'Archivo Gestión', 'archivo_gestion', 4),
+(9, 'permiso', 'Archivo Central', 'archivo_central', 5);
+
+ALTER TABLE `funcionalidades`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `funcionalidades`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
+
+
+CREATE TABLE IF NOT EXISTS `usuarios_funcionalidades` (
+  `id` int(11) NOT NULL,
+  `user_id` varchar(255) NOT NULL,
+  `id_funcionalidad` int(11) NOT NULL,
+  `valor` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+ALTER TABLE `usuarios_funcionalidades`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `usuarios_funcionalidades`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1;
+
+INSERT INTO usuarios_funcionalidades(user_id, id_funcionalidad, valor)
+			SELECT t.user_id,t.id,t.valor
+			FROM (SELECT usuarios.user_id, funcionalidades.id, '0' as valor FROM usuarios, funcionalidades) t LEFT JOIN 
+				usuarios_funcionalidades uf on t.user_id = uf.user_id and t.id = uf.id_funcionalidad;
+
+
+
+#usuarios_configurar_accesos agregar estructura de tabla

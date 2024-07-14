@@ -1,0 +1,14 @@
+<?php
+	$dbhost = 'localhost';
+	$dbname = 'audiosju_main';
+	$dbuser = 'audiosju';
+	$dbpass = 'NfFDU$]VAK8x';
+	
+	$server_name = $_SERVER["SERVER_NAME"];
+	
+	define("DB_SERVER", $dbhost);
+	define("DB_USER", $dbuser);
+	define("DB_PASS", $dbpass);
+	define("DB_NAME", $dbname);
+	define("SERVER", $server_name);
+?>

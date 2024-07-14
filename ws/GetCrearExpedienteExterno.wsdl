@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:CrearExpedienteExterno" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:CrearExpedienteExterno">
+<types>
+<xsd:schema targetNamespace="urn:CrearExpedienteExterno"
+>
+ <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+ <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+</xsd:schema>
+</types>
+<message name="GetCrearExpedienteExternoRequest">
+  <part name="cedula" type="xsd:string" />
+  <part name="nit_suscriptor" type="xsd:string" />
+  <part name="nombre_suscriptor" type="xsd:string" />
+  <part name="tipo_suscriptor" type="xsd:string" />
+  <part name="Direccion_suscriptor" type="xsd:string" />
+  <part name="Telefonos_suscriptor" type="xsd:string" />
+  <part name="Email_suscriptor" type="xsd:string" />
+  <part name="radicado" type="xsd:string" />
+  <part name="dependencia_destino" type="xsd:string" />
+  <part name="observacion" type="xsd:string" />
+  <part name="archivo" type="xsd:string" />
+  <part name="archivo_nombre" type="xsd:string" />
+  <part name="como_enviar_expediente" type="xsd:string" />
+  <part name="datosfactura" type="xsd:string" /></message>
+<message name="GetCrearExpedienteExternoResponse">
+  <part name="return" type="xsd:string" /></message>
+<portType name="CrearExpedienteExternoPortType">
+  <operation name="GetCrearExpedienteExterno">
+    <documentation>Registra un expediente</documentation>
+    <input message="tns:GetCrearExpedienteExternoRequest"/>
+    <output message="tns:GetCrearExpedienteExternoResponse"/>
+  </operation>
+</portType>
+<binding name="CrearExpedienteExternoBinding" type="tns:CrearExpedienteExternoPortType">
+  <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <operation name="GetCrearExpedienteExterno">
+    <soap:operation soapAction="urn:CrearExpedienteExterno#GetCrearExpedienteExterno" style="rpc"/>
+    <input><soap:body use="encoded" namespace="urn:CrearExpedienteExterno" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="urn:CrearExpedienteExterno" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+</binding>
+<service name="CrearExpedienteExterno">
+  <port name="CrearExpedienteExternoPort" binding="tns:CrearExpedienteExternoBinding">
+    <soap:address location="http://expedientesdigitales.com/ws/GetCrearExpedienteExterno.php"/>
+  </port>
+</service>
+</definitions>

@@ -1,0 +1,38 @@
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:producto" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:producto">
+<types>
+<xsd:schema targetNamespace="urn:producto">
+<xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+<xsd:import namespace="http://schemas.xmlsoap.org/wsdl/"/>
+</xsd:schema>
+</types>
+<message name="GetUserDataRequest">
+<part name="id" type="xsd:string"/>
+</message>
+<message name="GetUserDataResponse">
+<part name="return" type="xsd:string"/>
+</message>
+<portType name="productoPortType">
+<operation name="GetUserData">
+<documentation>Nos da una lista de productos de cada categorÃ­a</documentation>
+<input message="tns:GetUserDataRequest"/>
+<output message="tns:GetUserDataResponse"/>
+</operation>
+</portType>
+<binding name="productoBinding" type="tns:productoPortType">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="GetUserData">
+<soap:operation soapAction="urn:producto#GetUserData" style="rpc"/>
+<input>
+<soap:body use="encoded" namespace="urn:producto" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:producto" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
+</binding>
+<service name="producto">
+<port name="productoPort" binding="tns:productoBinding">
+<soap:address location="http://expedientesdigitales.com/ws/producto.php"/>
+</port>
+</service>
+</definitions>
